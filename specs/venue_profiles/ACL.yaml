@@ -1,0 +1,22 @@
+id: ACL
+name: Annual Meeting of the Association for Computational Linguistics
+family: NLP
+target_reader: NLP、计算语言学与语言模型研究者
+preferred_contributions:
+  - 边界明确且有实际价值的新任务或新问题设定
+  - 可解释、可实施且有判别证据的学习机制或优化目标
+  - 可追溯的数据构建、评测协议与可靠性发现
+  - 能区分竞争性解释的实证机制分析
+evidence_priorities:
+  - 数据来源、划分、潜在泄漏与任务有效性
+  - 最近邻工作及控制变量一致的强基线比较
+  - 核心机制的必要性测试与可证伪的对照实验
+  - 自动指标和人工评价的适用条件与误差
+  - 失败边界、跨分布表现及替代解释
+  - 训练推理预算、可复现条件和资源适配
+writing_notes:
+  - Introduction 先证明问题价值与困难根因，再引入方法
+  - Related Work 按研究问题与机制组织，并区分已核验事实与待核验差异
+  - Method 说明必要干预和中介效应，不以模块数量替代贡献
+  - Experiment 通过公平对照和判别实验测试中心主张
+  - Expected Results 仅写条件性预期及证伪情形，不宣称已完成实验
